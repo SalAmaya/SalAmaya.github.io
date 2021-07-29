@@ -16,12 +16,12 @@
 }
 
 .Headshot{
-    position: absolute;
+    position: relative;
     z-index: 10;
     font-size: 2rem;
     border-radius: 50%;
-    top: 120%;
-    display: flex;
+    padding-top: px;
+    display: inline-block;
     
 }
 
@@ -36,6 +36,19 @@
     border-radius: 55%;
 } */
 
+.grid{
+    display: inline-block;
+    grid-gap: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.text-images{
+    grid-row-start: 2;
+    grid-row-end: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 .showcase{
     position: absolute;
     right: 0;
@@ -60,6 +73,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: 1s;
+    
 }
 
 .logo:hover{
@@ -125,7 +139,7 @@
     mix-blend-mode: overlay;
 }
 
-.text{
+.text-box{
     /* font-size: 20px; */
     position: relative;
     align-content: center;
@@ -133,14 +147,15 @@
     line-height: 25px;
     box-sizing: border-box;
 
-max-width: 800px;
-margin-top: 10px;
-margin-left: 0%;
+    /* max-width: 800px;
+    margin-top: 10px;
+    margin-left: 0%; */
 
 
 }
 
-.text h2{
+
+.text-box h2{
     font-size: 5em;
     font-weight: 800;
     line-height: 1em;
@@ -148,7 +163,7 @@ margin-left: 0%;
 
 }
 
-.text h2{
+.text-box h2{
     font-size: 4em;
     font-weight: 700;
     line-height: 1em;
@@ -156,7 +171,7 @@ margin-left: 0%;
     
 }
 
-.text p{
+.text-box p{
     font-size: 1.1em;
     margin: 20px 0;
     font-weight: 400;
@@ -164,7 +179,7 @@ margin-left: 0%;
 
 }
 
-.text  a{
+.text-box  a{
     display: inline-block;
     font-size: 1em;
     background: white;
@@ -175,6 +190,7 @@ margin-left: 0%;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.3s;
+    
 }
 
 .text a:hover{
@@ -225,7 +241,7 @@ margin-left: 0%;
     }
 
     .text h3{
-        font-size: 2em;
+        font-size: 10px;
     }
 }
 
