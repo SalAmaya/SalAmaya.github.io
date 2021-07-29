@@ -50,6 +50,11 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: scale(1.5) translateY(-15px);
 }
 
 .showcase header{
@@ -120,7 +125,11 @@
     font-weight: 800;
     line-height: 1em;
     text-transform: uppercase;
+    transition: 1s;
+}
 
+.text h2:hover{
+    transform: scale(1.2);
 }
 
 .text h2{
@@ -157,7 +166,7 @@
 }
 
 .social{
-    position: absolute;
+    position: relative;
     bottom: 20px;
     z-index: 10;
     display: flex;
@@ -178,11 +187,11 @@
     filter: invert(1);
     margin-right: 20px;
     transform: scale(0.4);
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .social li a:hover {
-    transform: scale(0.4) translateY(-15px);
+    transform: scale(0.4) translateY(-25px);
 }
 
 .menu{
@@ -231,3 +240,6 @@
         font-size: 2em;
     }
 }
+
+
+

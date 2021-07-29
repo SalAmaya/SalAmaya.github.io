@@ -59,6 +59,12 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: skewY(-20deg);
+    font-size: 50px;
 }
 
 .showcase header{
