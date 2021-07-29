@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SA.CSS">
+    
+    
+    <title>Salvador Amaya</title>
+</head>
+<body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Salvador Amaya's Porfolio</h2>
+                <!-- <img src="./YouTube PFP (2).jpg" class="Headshot" alt="Cam Shot"> -->
+            <div class="toggle"></div>
+            </header>
+    
+            <video src="./pexels-nikita-ryumshin-7782667.mp4" muted loop autoplay></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h2>Salvador Amaya</h2>
+                <br>
+                <h3>Aspiring Digital Marketer and Front-End Web Developer. </h3>
+                <p>Feel Free To Reach Out On Any Platform!</p>
+                <a href="mailto:SalAmaya98@Gmail.com">Email</a>
+                <a href="https://drive.google.com/file/d/114or5w9-HKheU96vi0Z27StI2HUrSEeF/view?usp=sharing" target="Resume">Resume</a>
+
+                
+
+            </div>
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/salvadoramaya/" target="LinkedIn"> <img src="./LinkedIn.png" alt="LinkedIn URL"></a></li>
+                    <li><a href="https://github.com/SalAmaya/SalAmaya" target="GitHub"><img src="./Github.png" alt="GitHub URL"></a></li>
+                    <!-- <li><a href="#"><img src="./LinkedIn.png" alt="Relevant SM"></a></li> -->
+                </ul>
+                
+        </section>
+
+            
+        <div class="menu">
+            <ul>
+                <!-- <li><a href="SA.CSS">Home</a></li> -->
+                <li><a href="../About/About.HTML">About</a></li>
+                <li><a href="../Experiences/Experiences.HTML">Experiences</a></li>
+                <li><a href="../Academics/Academics.HTML">Academics</a></li>
+                <li><a href="../Projects/Projects.HTML">Projects</a></li>
+                <li><a href="../Freelancing/Freelancing.HTML">Freelancing</a></li>
+                <li><a href="../Certifications/Certifications.HTML">Certifications</a></li>
+            </ul>
+        </div>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+</body>
+
+</html>

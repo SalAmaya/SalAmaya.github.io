@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./About.CSS">
+    
+    <title>About Me</title>
+
+</head>
+<body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">About Me</h2>
+                <div class="Headshot">Synopsis</div>
+            <div class="toggle"></div>
+            </header>
+    
+            <video src="./pexels-nikita-ryumshin-7782667.mp4" muted loop autoplay></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+                
+                <h3>My past work and academic experiences have molded me into a data driven individual. Most recently, I have been interning
+                at LogicMonitor (a SaaS centric company) that provides IT monitoring solutions in various markets around the globe! I am
+                expecting to dive into a Masters program very soon with a focus in Information Systems to compliment my passion for data visualization,
+                numbers and SEO.
+                <br>
+                <br>
+                
+                I tend to take a proactive approach instead of waiting for an opportunity. That is why I have taken an initiative to
+                become certified in many different platforms within marketing. Additionally, I have informally worked on creating original
+                content through the Adobe Creative Suite and also manage a small eBay store for over 7 years! I've also gone outside my "realm" to teach myself how to code in HTML, CSS, and Javascript which resulted in this website!</h3>   
+                <!-- <img src="../" class="AboutMe" alt="About Me">
+                <img src="./580b57fcd9996e24bc43c536.png" class="AboutMe" alt="About Me">
+                <img src="../LinkedIn.png" class="AboutMe" alt="About Me"> -->
+            </div>
+<div class="features">
+    <div class="features-inner">
+        <div class="featured-item">
+            <img src="../Github.png" alt="">
+        </div>
+        <div class="featured-item">
+            <img src="../Github.png" alt="">
+        </div>
+        <div class="featured-item">
+            <img src="../Github.png" alt="">
+        </div>
+    </div>
+</div>
+            
+        </section>
+        
+            
+        <div class="menu">
+            <ul>
+                <li><a href="../Main/SA.HTML">Home</a></li>
+                <!-- <li><a href="./About.CSS" target="About"></a>About</li> -->
+                <li><a href="../Experiences/Experiences.HTML">Experience</a></li>
+                <li><a href="../Academics/Academics.HTML">Academics</a></li>
+                <li><a href="../Projects/Projects.HTML">Projects</a></li>
+                <!-- <li><a href="../Contact/Contact.CSS"></a>Contact</li> -->
+                <li><a href="../Freelancing/Freelancing.HTML">Freelancing</a></li>
+                <li><a href="../Certifications/Certifications.HTML">Certifications</a></li>
+
+            </ul>
+        </div>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+</body>
+
+</html>
