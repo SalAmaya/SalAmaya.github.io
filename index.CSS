@@ -82,7 +82,9 @@
     background-repeat: no-repeat ;
     background-size: 70px;
     background-position: center;
+    border-radius: 50%;
     cursor: pointer;
+    background-color:#ffa600 ;
 }
 
 
@@ -206,6 +208,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    line-height: 70px;
 
 }
 
