@@ -26,6 +26,8 @@
     margin-top: 50px;
     z-index: 20;
     mix-blend-mode: hard-light;
+    line-height: 1.9;
+    font-size: large;
 }
 
 .Headshot{
