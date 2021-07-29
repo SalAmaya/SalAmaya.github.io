@@ -1,3 +1,2 @@
 # SalAmaya.github.io
-Personal Website
-
+Personal Website for Personal Use and HR Recruitment Purposes
