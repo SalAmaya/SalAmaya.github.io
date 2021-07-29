@@ -251,3 +251,11 @@
         font-size: 2em;
     }
 }
+
+.featured-item{
+    transition: 1s;
+}
+
+.featured-item:hover{
+    transform: translateY(-15px);
+}
