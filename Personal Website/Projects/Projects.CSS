@@ -4,7 +4,6 @@
 }
 
 
-
 /* Text Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400&display=swap');
@@ -14,7 +13,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    cursor: pointer ;
 }
 
 .featured-item{
@@ -23,13 +21,15 @@
     border-radius: 50px;
     padding-left: 25px;
     padding-right: 25px;
-    margin-top: 50px;
     z-index: 20;
     mix-blend-mode: hard-light;
-    line-height: 1.9;
-    font-size: large;
+    
 }
 
+.featured-item a{
+    color: white;
+    
+}
 .Headshot{
     position: absolute;
     z-index: 10;
@@ -64,12 +64,6 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
-    transition: 1s;
-}
-
-.logo:hover{
-    transform: skewY(-20deg);
-    font-size: 50px;
 }
 
 .showcase header{
@@ -189,6 +183,8 @@
 }
 
 
+
+
 .social li{
     list-style: none;
 
@@ -215,7 +211,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 70px;
 
 }
 
@@ -249,13 +244,4 @@
     .text h3{
         font-size: 2em;
     }
-}
-
-
-.featured-item{
-    transition: 1s;
-}
-
-.featured-item:hover{
-    transform: translateY(-15px);
 }
