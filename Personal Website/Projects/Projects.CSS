@@ -23,6 +23,7 @@
     padding-right: 25px;
     z-index: 20;
     mix-blend-mode: hard-light;
+    margin-top: 30px;
     
 }
 
@@ -64,6 +65,13 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    transition: 1s;
+    
+}
+
+.logo:hover{
+    transform: skewY(-20deg);
+    font-size: 50px;
 }
 
 .showcase header{
@@ -244,4 +252,12 @@
     .text h3{
         font-size: 2em;
     }
+}
+
+.featured-item{
+    transition: 1s;
+}
+
+.featured-item:hover{
+    transform: translateY(-15px);
 }
