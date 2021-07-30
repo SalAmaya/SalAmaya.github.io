@@ -218,6 +218,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    line-height: 70px;
     justify-content: center;
 
 }
